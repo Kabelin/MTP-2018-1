@@ -1,9 +1,9 @@
+//Vitor Rabelo Cruvinel - 11721ECP004.
 #include <stdio.h>
 
 int A(int,int);
 
 int main(int argc, char ** argv) {
-	//Vitor Rabelo Cruvinel - 11721ECP004.
 	int m,n;
 	printf("Digite m e n:\n");
 	scanf("%d%d",&m,&n);
