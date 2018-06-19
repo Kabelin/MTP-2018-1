@@ -1,10 +1,10 @@
+//Vitor Rabelo Cruvinel - 11721ECP004.
 #include <stdio.h>
 
 int soma(int*,int*);
 float div(float,float);
 
 int main(int argc, char ** argv) {
-	//Vitor Rabelo Cruvinel - 11721ECP004.
 	int n[20],q,i=0;
 	printf("Qual a quantidade de numeros?\n");
 	scanf("%d\n",&q);getchar();
