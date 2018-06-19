@@ -1,6 +1,6 @@
+//Vitor Rabelo Cruvinel - 11721ECP004.
 #include <stdio.h>
 int main(int argc, char ** argv) {
-	//Vitor Rabelo Cruvinel - 11721ECP004.
 	int op,i,n[64],*pn;
 	char str[256],*pm;
 	for(i=0;i<256;i++) str[i] = 0;
