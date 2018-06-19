@@ -1,3 +1,4 @@
+//Vitor Rabelo Cruvinel - 11721ECP004.
 #include <stdio.h>
 void cv (int num)
 {
@@ -49,7 +50,6 @@ void cv (int num)
 }
 
 int main(int argc, char ** argv) {
-	//Vitor Rabelo Cruvinel - 11721ECP004.
 	int a,b,op;
 	printf("Digite a opcao desejada: 1-NOT, 2-AND, 3-OR, 4-XOR, 5-Right Shift e 6-Left Shift\n");
 	scanf("%d",&op);getchar();
