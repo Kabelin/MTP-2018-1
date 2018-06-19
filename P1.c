@@ -1,6 +1,6 @@
+//Vitor Rabelo Cruvinel - 11721ECP004.
 #include <stdio.h>
 int main(int argc, char ** argv) {
-	//Vitor Rabelo Cruvinel - 11721ECP004.
 	int estado = 0, i = 0;
 	char bits [256];
 	printf("Digite o numero desejado: ");
