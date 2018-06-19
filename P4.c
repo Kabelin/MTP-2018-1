@@ -1,6 +1,6 @@
+//Vitor Rabelo Cruvinel - 11721ECP004.
 #include <stdio.h>
 int main(int argc, char ** argv) {
-	//Vitor Rabelo Cruvinel - 11721ECP004.
 	char num[256];
 	int i=0,aux;
 	printf("Digite a string\n");
