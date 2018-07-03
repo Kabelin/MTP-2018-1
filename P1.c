@@ -15,8 +15,7 @@ int main(int argc, char ** argv) {
 		else if (estado == 2 && bits[i] == '1') estado = 2;
 		i++;
 	}
-	printf("\nO valor do estado eh: %d",estado);
-	if(estado == 0) printf("\nA sequencia %s eh multipla de tres",bits);
-	else printf("\nA sequencia %s nao eh multipla de tres",bits);
+	if(estado == 0) printf("\nMultiplo de 3");
+	else printf("\nNao");
 	return 0;
 }
