@@ -16,7 +16,7 @@ struct Produto{
 
 void Cadastrar(struct Produto P[], int i){
 	printf("\n\t\tDigite o nome do produto: ");
-	scanf("%s", &P[i].nome);
+	scanf("%s", P[i].nome);
 	printf("\n\t\tDigite o preco: ");
 	scanf("%f", &P[i].preco);
 	printf("\n\t\tDigite a largura: ");
