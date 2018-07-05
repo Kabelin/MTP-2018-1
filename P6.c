@@ -6,15 +6,15 @@ float div(float,float);
 
 int main(int argc, char ** argv) {
 	int n[20],q,i=0;
-	printf("Qual a quantidade de numeros?\n");
-	scanf("%d\n",&q);getchar();
 	while(i<20){
 		n[i]=0;
 		i++;
 	}
 	i=0;
+	printf("Qual a quantidade de numeros?\n");
+	scanf("%d",&q);getchar();
 	while(i<q){
-		printf("Numero %d\n: ",i+1);
+		printf("Numero %d: \n",i+1);
 		scanf("%d",&n[i]);getchar();
 		i++;
 	}
